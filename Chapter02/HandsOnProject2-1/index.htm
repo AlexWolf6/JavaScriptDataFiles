@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang=en-US>
 <head>
    <!--
       JavaScript 6th Edition
       Chapter 2
       Hands-on Project 2-1
 
-      Author: 
-      Date:   
+      Author: Alex Wolf
+      Date:   2-1-22
 
       Filename: index.htm
    -->
@@ -43,5 +43,12 @@
           </fieldset>
      </form>
    </article>
+<script>
+function convert() {
+var degF = document.getElementById("fValue").value;
+var degC = degF - 32 *5 / 9;
+document.getElementById("cValue").innerHTML = degC;
+}
+</script>
 </body>
 </html>
